@@ -1,0 +1,138 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the navbar */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the brand/logo */
+.brand {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.nav-links a:hover {
+    color: #e50914;
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ff0000;
+}
+
+
+
+
+/* Style for the movie container */
+#movie-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #121b23;
+    color: #fff;
+    margin: 5px auto;
+    border-radius: 10px;
+    width: auto;
+}
+
+.movie-item {
+    position: relative;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    width: 250px;
+    text-align: center;
+}
+
+
+.movie-item img {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.movie-item h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #d1a054;
+}
+
+/* Style for the watch now button */
+.movie-item button {
+    margin-top: 15px;
+    background-color: #f91008;
+    color: #fff;
+    border: #f9f6f6;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+/* Hover effect for the movie card */
+.movie-item:hover {
+    transform: translateY(-5px);
+}
+
+.movie-item button:hover {
+    background-color: #850209;
+}
