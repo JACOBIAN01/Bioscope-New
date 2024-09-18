@@ -20,8 +20,9 @@
 /* Style the brand/logo */
 .brand {
     color: red;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+   
 }
 
 /* Style the navigation links */
@@ -29,17 +30,19 @@
     list-style-type: none;
     display: flex;
     padding: 5px;
+    font-size: 25px;
 }
 
 .nav-links li {
-    margin-right: 20px;
+    margin-right: 30px;
+    pa
 }
 
 .nav-links a {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    padding-right: 50px;
+    padding-right: 50x;
 }
 
 .nav-links a:hover {

@@ -1,36 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bioscope</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
-  </head>
+{% extends "Base.html" %}
 
-  <body>
-<header></header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="brand">Bioscope</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">TV Shows</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">My List</a></li>
-            </ul>
-            <div class="search-bar">
-                <input type="text" placeholder="Search" />
-                <button>Search</button>
-            </div>
-        </div>
-    </nav>
-</header>
+{% block title %}
+    Bioscope
+{% endblock %}
 
-
-    <div id="movie-container"></div>
-
-
-    
-    <script src="{{ url_for('static', filename='index.js') }}"></script>
-  </body>
-</html>
+{% block content %}
+    <div id="movie-container"></div> 
+{% endblock %}
