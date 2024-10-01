@@ -22,7 +22,6 @@
     color: red;
     font-size: 30px;
     font-weight: bold;
-   
 }
 
 /* Style the navigation links */
@@ -35,14 +34,14 @@
 
 .nav-links li {
     margin-right: 30px;
-    pa
 }
 
 .nav-links a {
-    color: #fff;
+    color: #ffff;
     font-weight: bold;
     text-decoration: none;
-    padding-right: 50x;
+    padding-right: 50px;
+    /* Fixed '50x' to '50px' */
 }
 
 .nav-links a:hover {
@@ -74,9 +73,6 @@
     background-color: #ff0000;
 }
 
-
-
-
 /* Style for the movie container */
 #movie-container {
     display: flex;
@@ -101,7 +97,6 @@
     width: 250px;
     text-align: center;
 }
-
 
 .movie-item img {
     width: 250px;

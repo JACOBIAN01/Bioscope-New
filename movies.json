@@ -1,7 +1,6 @@
 [
   {
-    "id": 1,
-    "Poster": "./static/Poster/Outfit.jpg",
+    "Poster": "/static/Poster/Outfit.jpg",
     "Name": "The Outfit",
     "Link": "https://vimeo.com/933829653?share=copy"
   },
